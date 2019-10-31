@@ -1,0 +1,22 @@
+#Format: plot(data,copy,players,year)
+plot(FreeThrows,"FreeThrows")
+plot(FreeThrowAttempts,"FreeThrowAttempts")
+plot(Games,"Games")
+plot(MinutesPlayed,"MinutesPlayed")
+plot(Salary,"Salary")
+plot(Points,"Points")
+plot(FieldGoalAttempts,"FieldGoalAttempts")
+plot(FieldGoals,"FieldGoals")
+
+plot(FreeThrows/FreeThrowAttempts,"Success ratio in FreeThrows")
+plot(FreeThrows/Games,"FreeThrows per Game")
+plot(FieldGoals/FieldGoalAttempts,"Success ratio in FieldGoals")
+plot(FieldGoals/Games,"FieldGoals per Game")
+
+plot(MinutesPlayed/Games,"MinutesPlayed per Game")
+plot(Points/Games,"Points per Game")
+plot(Salary/Games,"Salary per Game")
+plot(FreeThrowAttempts/Games,"FreeThrowAttempts per Game")
+plot(FreeThrows/Games,"FreeThrows per Game")
+
+plot((Points-FreeThrows)/FieldGoals,"Best player by Points")
